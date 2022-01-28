@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="description" content="Vanna's Beauty Salon | The best beautician in Dublin, offering massage, facial and body treatments, waxing, manicures and pedicures!">
+      <meta name="keywords" content="beautician, waxing, pedicure, manicure, facial treatments, body treatments, gel nails, nails, Dublin, beauty salon">
+      <link rel="stylesheet" href="assets/css/index.css">
+      <title>Vanna's Beauty Salon</title>
+   </head>
+   <body>
+      <div class="content">
+         <!-- HEADER --> 
+         <header class="header">
+            <nav class="navbar">
+               <div class="container-fluid">
+                  <div id="header" class="nav-logo">
+                     <ul>
+                        <li>
+                           <h1><a href="index.html" class="nav-logo">Vanna's Beauty Salon</a></h1>
+                           <p>The soul of a woman</p>
+                        </li>
+                     </ul>
+                  </div>
+                  <div id="nav">
+                     <ul class="nav-menu">
+                        <li class="nav-item">
+                           <a href="index.html" class="nav-link" >Home</a>
+                        </li>
+                        <li class="nav-item">
+                           <a href="services-prices.html" class="nav-link">Services & Prices</a>
+                        </li>
+                        <li class="nav-item">
+                           <a href="our-team.html" class=" active-link nav-link">Our Team</a>
+                        </li>
+                        <li class="nav-item">
+                           <a href="gallery.html" class="nav-link">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                           <a href="contact-us.html" class="nav-link">Contact Us</a>
+                        </li>
+                     </ul>
+                     <div class="hamburger">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                     </div>
+                  </div>
+               </div>
+            </nav>
+         </header>
+         <!-- END OF HEADER --> 
+         <div id="hr"></div>
+         <!-- OUR TEAM IMAGE --> 
+         <div id="our-team-img-outer">
+            <div id="our-team-img"></div>
+         </div>
+         <!-- END OF OUR TEAM IMAGE --> 
+         <!-- TITLE SECTION --> 
+         <section id="our-team-section">
+            <div id="our-team-title">
+               <h2> Meet Our Team</h2>
+            </div>
+         </section>
+         <!-- END OF TITLE SECTION --> 
+         <!-- OUR TEAM SECTION --> 
+         <section id=section-salon>
+            <div id="meet-our-team">
+               <div class="salon-team">
+                  <div class="portrait" id="portrait-one"></div>
+                  <div class="text">
+                     <h3>Sarah Kelly</h3>
+                     <p>She was born on May 12, 1990 in Dublin. 
+                        After graduating from Crumlin College, she immediately began working and building her career.
+                        She is part of our team since May 2018.
+                        She successfully completed several more courses for nails, waxing and massages.
+                        Sarah is perfect for hand care, gel nails and Schellac nail polish.
+                     </p>
+                  </div>
+               </div>
+               <div class="salon-team">
+                  <div class="portrait" id="portrait-two"></div>
+                  <div class="text">
+                     <h3>Claudia Murphy</h3>
+                     <p>
+                        She was born on March 20, 1994 in Dublin. She has completed numerous courses and training for nails, waxing and massages.
+                        She is part of our team since November 2019.
+                        In addition to work, Claudia also attends numerous training.
+                        She mostly opted for eyelash extensions where she became a real artist. Claudia is a true eyelash expert.
+                     </p>
+                  </div>
+               </div>
+               <div class="salon-team">
+                  <div class="portrait" id="portrait-three"></div>
+                  <div class="text">
+                     <h3>Anna O'Sullivan</h3>
+                     <p>
+                        She was born on May 2, 1997 in Limerick. 
+                        After completing numerous courses, she immediately started working and building a career. 
+                        She is part of our team since October 2019.
+                        Anna has completed numerous massage and body care courses. 
+                        In addition to work, she attends numerous courses and educations. 
+                        Maderotherapy and facial care is her specialty. Anna is perfect for all types of massages and facial treatments.
+                     </p>
+                  </div>
+               </div>
+               <div class="salon-team">
+                  <div class="portrait" id="portrait-four"></div>
+                  <div class="text">
+                     <h3>Hanna Walsh</h3>
+                     <p>
+                        She was born in Dublin on August 15, 1994. 
+                        she is part of our team since October 2019.
+                        She has completed numerous nail, waxing and massage courses. 
+                        Always ready to learn something new. 
+                        In addition to work, she attends numerous courses and educations.
+                        Hanna is great at waxing and medical pedicure.
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <!-- END OF OUR TEAM SECTION --> 
+         <!-- FOOTER --> 
+         <footer id="footer">
+            <div class="envelope-icon"><i class="fas fa-envelope"></i>vannasbeautysalon@gmail.com</div>
+            <div class="phone-icon"><i class="fas fa-phone-alt"></i>087 610 67 20</div>
+            <div class="social-media">
+               <a href="https://instagram.com/" rel="noopener" target="_blank" 
+                  aria-label="Visit our Instagram page (opens in a new tab)" ><i class="fab fa-instagram"></i></a>
+               <a href="https://www.facebook.com/" rel="noopener" target="_blank" 
+                  aria-label="Visit our Facebook page (opens in a new tab)" ><i class="fab fa-facebook"></i></a>
+            </div>
+         </footer>
+         <!-- END OF FOOTER -->     
+      </div>
+      <script>
+         const hamburger = document.querySelector(".hamburger");
+         const navMenu = document.querySelector(".nav-menu");
+         
+         hamburger.addEventListener("click", mobileMenu);
+         
+         function mobileMenu() {
+         hamburger.classList.toggle("active");
+         navMenu.classList.toggle("active");
+         }
+         
+      </script>
+      <!-- font awsome script -->
+      <script src="https://kit.fontawesome.com/1ef70762c3.js" crossorigin="anonymous"></script>
+   </body>
+</html>

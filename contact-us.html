@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="description" content="Vanna's Beauty Salon | The best beautician in Dublin, offering massage, facial and body treatments, waxing, manicures and pedicures!">
+      <meta name="keywords" content="beautician, waxing, pedicure, manicure, facial treatments, body treatments, gel nails, nails, Dublin, beauty salon">
+      <link rel="stylesheet" href="assets/css/index.css">
+      <title>Vanna's Beauty Salon</title>
+   </head>
+   <body>
+      <div class="content">
+         <!-- HEADER -->    
+         <header class="header">
+            <nav class="navbar">
+               <div class="container-fluid">
+                  <div id="header" class="nav-logo">
+                     <ul>
+                        <li>
+                           <h1><a href="index.html" class="nav-logo">Vanna's Beauty Salon</a></h1>
+                           <p>The soul of a woman</p>
+                        </li>
+                     </ul>
+                  </div>
+                  <div id="nav">
+                     <ul class="nav-menu">
+                        <li class="nav-item">
+                           <a href="index.html" class="nav-link" >Home</a>
+                        </li>
+                        <li class="nav-item">
+                           <a href="services-prices.html" class="nav-link">Services & Prices</a>
+                        </li>
+                        <li class="nav-item">
+                           <a href="our-team.html" class="nav-link">Our Team</a>
+                        </li>
+                        <li class="nav-item">
+                           <a href="gallery.html" class="nav-link">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                           <a href="contact-us.html" class="active-link nav-link">Contact Us</a>
+                        </li>
+                     </ul>
+                     <div class="hamburger">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                     </div>
+                  </div>
+               </div>
+            </nav>
+         </header>
+         <!-- END OF HEADER --> 
+         <div id="hr"></div>
+         <!-- IMAGES --> 
+         <div id="contact-img-outer">
+            <div class="contact-img-1"></div>
+            <div class="contact-img-2"></div>
+            <div class="contact-img-3"></div>
+            <div class="contact-img-4"></div>
+            <div class="contact-img-5"></div>
+         </div>
+         <!-- END OF IMAGES -->     
+         <!-- CONTACT US TITLE SECTION--> 
+         <section id="contact-outer">
+            <h2>Contact Us</h2>
+            <hr class="gray-line">
+         </section>
+         <!-- END OF CONTACT US TITLE SECTION --> 
+         <!-- WRAPER -->
+         <div id="iframe-description-wraper">
+            <!-- IFRAME -->
+            <div>
+               <iframe id="iframe-contact-page" 
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2385.9009261825804!2d-6.3212697841643095!3d53.27339477996381!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48670b04f3332f0f%3A0xdb5d318a650b22cd!2s16%20Stocking%20Well%20Row%2C%20Ballycullen%2C%20Dublin!5e0!3m2!1shr!2sie!4v1634773968166!5m2!1shr!2sie" 
+                  width="600" height="450" ></iframe>
+            </div>
+            <!-- END OF IFRAME --> 
+            <!-- ADDRESS DIRECTIONS --> 
+            <div id="contact-description">
+               <p>
+                  Vanna's Beauty Salon is located in a quieter place just 20 minutes away from Dublin City Centre.
+                  Instead of the hectic bustle of city traffic, you will be able to travel unhindered and park in a private parking lot in front of the entrance to the salon. 
+               </p>
+               <div id="address-contact-page">
+                  <div id="address-directions">
+                     <p><i class="fas fa-map-marker-alt"></i> <strong> Vanna's Beauty Salon</strong></p>
+                     <p class="address-details"> 23 Stocking Well Row
+                        <br>Ratfarnaham
+                        <br>Dublin 16
+                     </p>
+                  </div>
+               </div>
+            </div>
+            <!-- END OF ADDRESS DIRECTIONS -->    
+         </div>
+         <!-- END OF WRAPER -->
+         <!-- FORM SECTION -->
+         <section id="form">
+            <h3> Get In Touch</h3>
+            <hr class="gray-line">
+            <br>
+            <p>If you have any inquiries about treatments and appoitments, please feel free to contact us.
+            </p>
+            <div class="form-center">
+               <form action="https://formdump.codeinstitute.net/" method="post">
+                  <input type="text" id="name" name="name" placeholder="Name:" class="form-control" required>
+                  <input type="email" id="email" name="email" placeholder="Email:" class="form-control" required>
+                  <textarea name="message" cols="30" rows="10" placeholder="Message:" class="form-control"></textarea>
+                  <input type="submit" value="Send Message" class="form-control"> 
+               </form>
+            </div>
+         </section>
+         <!-- END OF FORM SECTION -->
+         <!-- FOOTER -->
+         <footer id="footer">
+            <div class="envelope-icon"><i class="fas fa-envelope"></i>vannasbeautysalon@gmail.com</div>
+            <div class="phone-icon"><i class="fas fa-phone-alt"></i>087 610 67 20</div>
+            <div class="social-media">
+               <a href="https://instagram.com/" rel="noopener" target="_blank" 
+                  aria-label="Visit our Instagram page (opens in a new tab)" ><i class="fab fa-instagram"></i></a>
+               <a href="https://www.facebook.com/" rel="noopener" target="_blank" 
+                  aria-label="Visit our Facebook page (opens in a new tab)" ><i class="fab fa-facebook"></i></a>
+            </div>
+         </footer>
+         <!-- END OF FOOTER --> 
+      </div>
+      <script>
+         const hamburger = document.querySelector(".hamburger");
+         const navMenu = document.querySelector(".nav-menu");
+         
+         hamburger.addEventListener("click", mobileMenu);
+         
+         function mobileMenu() {
+         hamburger.classList.toggle("active");
+         navMenu.classList.toggle("active");
+         }
+         
+      </script>
+      <!-- font awsome script -->
+      <script src="https://kit.fontawesome.com/1ef70762c3.js" crossorigin="anonymous"></script>
+   </body>
+</html>

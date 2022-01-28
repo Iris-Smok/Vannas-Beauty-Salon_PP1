@@ -1,0 +1,1277 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Open+Sans:wght@500&display=swap');
+
+
+
+* {
+    margin : 0;
+    padding : 0;
+    border : none;
+}
+
+body {
+    font-family:Open Sans,sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    line-height: 1.5;
+     color: #3a3a3a; 
+     margin-left: 10%;
+     margin-right: 10%;
+     margin-top: 1%;
+     display: flex;
+     flex-direction: column;}
+
+
+    .content {
+          flex: 1;
+      }
+
+
+/* HEADING AND NAV */
+
+#header #nav {
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+
+   }
+    
+
+#header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+   
+}
+
+#header li {
+    display: inline;
+    float: left;
+}
+
+#header p {
+    margin-left: 70px;
+    font-family:Open Sans,sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    letter-spacing: normal;
+    margin-top: -5px;
+}
+
+#header h1 {
+    margin-left: 20px;
+    font-family:Lato,sans-serif;
+    letter-spacing: 4px;
+    font-size: 30px;
+   
+}
+
+.nav-logo { text-decoration: none;
+            color: #252525;}
+
+#nav {
+    font-size: 110%;
+    float: right; 
+    color: #252525;
+}
+
+
+
+#nav li {
+    float: left;
+    list-style-type: none;
+    margin-top: 20px;
+    margin-right: 30px;
+}
+
+#header #nav {
+    line-height: 75px;
+}
+
+#nav a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#nav a:hover {
+    border-bottom: 1px solid #252525;
+}
+.active-link {
+    border-bottom: 1px solid #252525;
+}
+
+
+.header{
+    border-bottom: 1px solid #E2E8F0;
+}
+
+
+.hamburger {
+    display: none;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #101010;
+}
+
+
+#hr {
+    position: relative;
+    left: 1em;
+    top: 70px;
+    border-top: 1px solid #3a3a3a;
+    margin-right: 2em;
+}
+
+
+
+/* HERO IMAGE*/
+
+#hero-outer{
+    width: 100%;
+    overflow: hidden;
+}
+
+
+.hero-img {
+    width: 100%;
+    margin-top: 2%;
+}
+
+
+
+/* ABOUT US */
+
+#about-us {
+    margin-top: 8%;
+    text-align: center;
+   
+}
+
+#about-us div {
+    width: 60%;
+    display: inline-block;
+    border: 1px solid #252525;
+    border-radius: 10px;
+}
+
+
+#about-us h2 {
+    text-align: center;
+    font-family:Lato,sans-serif;
+    text-transform: uppercase;
+    color: #252525;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.about {
+    text-align: center;
+    padding: 0px 50px 30px 50px;
+    letter-spacing: 1px;
+}
+
+
+/* REVIEWS */
+
+#reviews {
+    float: left;
+    margin-top: 8%;
+    margin-bottom: 50px;
+    margin-left: 15%;
+}
+
+
+#reviews div {
+    width: 20%;
+    float: left;
+    text-align: center;
+    padding: 3%; 
+}
+
+
+#reviews p {
+    margin-top: 20px;
+}
+
+
+
+
+/* CONTACT SECTION - HOME PAGE*/
+
+#contact h2 {
+    float: left;
+    width: 100%;
+    text-align: center;
+    font-family:Lato,sans-serif;
+    color: #252525;
+    font-size: 25px;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+
+#contact {
+    width: 100%;
+    float: left;
+    border-top: 1px solid #3a3a3a;
+    padding-top: 30px;
+    background: url('../images/stock-photo-place-for-relax.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
+}
+
+
+.address, .working-hours {
+    background-color: rgba(237, 243, 210, 0.6);
+    font-size: 16px;
+    color: #3a3a3a;
+    width: 30%;
+    height: 270px;
+    float: left;
+    text-align: center;
+    padding: 30px 0px 0px 10px;
+    margin: 20px 1%;
+}
+
+
+.address p {
+    padding-bottom: 5px;
+}
+
+
+.padding-top-contact {
+    margin-top: 20px;
+}
+
+
+.working-hours h3 {
+    text-align: center;
+    text-transform: uppercase;
+    font-family:Oswald,sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+
+.working-hours{
+    margin-left: 2.3%;
+    text-align: center;
+}
+
+#iframe-home-page {
+    float: right;
+     width: 30%;
+     height: 300px;
+     margin: 20px 1%;
+}
+
+    
+.working-hours ul {
+    margin: 0;
+    padding: 20px 0px 20px 0px;
+    list-style-type: none;
+}
+
+ .padding-top{
+    padding-top: 10%;
+}
+
+
+.day {
+    float: left;
+    width: 44%;
+    text-align: left;
+    padding-left: 8%;
+}
+
+
+.time {
+    float: right;
+    padding-right: 8%;
+}
+
+
+
+/* FOOTER */
+
+footer {
+    float: left;
+    width: 100%;
+    height: 105px;
+    background-color: rgba(79, 79, 82, 0.5);
+}
+
+
+#footer div {
+    float: left;
+    padding-top: 30px;
+    text-align: center;
+    font-size: 17px
+}
+
+.envelope-icon {
+    width: 40%;
+}
+
+.phone-icon {
+    width: 25%;
+}
+
+.social-media {
+    width: 25%;
+}
+
+#footer i {
+    font-size: 160%;
+    color: #3a3a3a;
+    margin: 1.5% 2%;
+    padding: 1% 0.5%;
+}
+
+.social-media a {
+    margin-left: 2%;
+}
+
+
+/* SERVICES & PRICES */
+
+#body-image {
+    float: left;
+    background: url('../images/price-background-spa.jpg');
+    background-repeat: no-repeat;
+    background-position:bottom;
+    background-size:cover;
+    overflow: hidden;
+    margin-top: 1%; 
+}
+
+#services-prices {
+    background-color: rgba(166, 180, 187, 0.7);
+    margin: 5% 15%;
+    float: left;
+}
+
+#price-list-title {
+    float: left;
+    margin: 0;
+    width: 100%;
+}
+
+
+#services-prices h3 {
+    padding-bottom: 3%;
+    padding-top: 5%;
+    font-family:Lato,sans-serif;
+    font-size: 25px;
+}
+
+
+
+#price-list-title h2 {
+    font-family:Lato,sans-serif;
+    text-transform: uppercase;
+    color: #252525;
+    font-size: 30px;
+    margin-top: 60px;
+    margin-bottom:50px;
+    text-align: center;
+}
+
+
+strong {
+    font-size: 15px;
+}
+
+
+#facial-treatments, #body-treatments, #waxing-service, #massage-service, #pedicure-service, #manicure-service {
+    float: left;
+    display: inline;
+    width: 96%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+
+.treatment { float: left;
+    padding:10px;
+    margin-left: 40px;
+    font-size: 18px;
+}
+
+
+.price { float: right;
+    padding:10px;
+    font-size:18px;
+}
+
+
+#facial ul { list-style-type: none;}
+
+#body ul { list-style-type: none;}
+ 
+#waxing ul { list-style-type: none;}
+ 
+#massage ul { list-style-type: none;}
+
+#pedicure ul {list-style-type: none;}
+
+#manicure ul { list-style-type: none;}
+
+
+#facial, #body, #waxing, #massage, #pedicure, #manicure {
+    padding: 10px 30px;
+}
+
+#body-treatments, #waxing-service, #massage-service, #pedicure-service, #manicure-service {
+    margin-top: 30px;
+}
+
+#manicure-service{
+    margin-bottom: 5%;
+}
+
+
+.bottom-border {
+  float:left;
+  width: 100%;
+  border-bottom: 1px solid gray;
+}
+
+
+
+
+/* MEET OUR TEAM PAGE */
+
+#our-team-img-outer {
+        width: 100%;
+        overflow: hidden;
+}
+
+#our-team-img {
+    background: url('../images/stock-photo-woman-in-the-salon2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    margin-top: 2%;
+}
+
+   #our-team-section {
+    float: left;
+    width: 100%;
+}
+
+#our-team-title h2 {
+    font-family:Lato,sans-serif;
+    text-transform: uppercase;
+    font-size: 30px;
+    margin-top: 60px;
+    margin-bottom:8px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #252525;
+}
+
+#our-team-title {
+    float: left;
+    margin: 60px 0% 50px 0%;
+    width: 100%;
+}
+
+  .salon-team {
+     float: left;
+     margin: 30px;
+     border-radius:30px;
+ }
+
+ 
+
+ .portrait {
+     float: left;
+     margin-left: 10%;
+     border: 1px solid rgb(189, 185, 185);
+ }
+
+ #portrait-one {
+    background: url('../images/stock-photo-beautiful-woman.jpg');
+    background-repeat: no-repeat;
+    background-position:top;
+    background-size: cover;
+    width: 400px;
+     height: 400px;
+     border-radius: 50%;
+ }
+
+
+#portrait-two {
+    background: url('../images/stock-photo-funny-woman.jpg');
+    background-repeat: no-repeat;
+    background-position:top;
+    background-size: cover;
+    width: 400px;
+     height: 400px;
+     border-radius: 50%;
+}
+
+#portrait-three {
+    background: url('../images/stock-photo-portrait-woman.jpg');
+    background-repeat: no-repeat;
+    background-position:top;
+    background-size: cover;
+    width: 400px;
+     height: 400px;
+     border-radius: 50%;
+}
+
+#portrait-four {
+    background: url('../images/stock-photo-smilling-bussiness-woman.jpg');
+    background-repeat: no-repeat;
+    background-position:top;
+    background-size: cover;
+    width: 400px;
+     height: 400px;
+     border-radius: 50%;
+}
+
+ .text {
+     float: left;
+     width: 25%;
+     height: 60%;
+     margin-left: 20%;
+     text-align: justify;
+ }
+
+ .text h3 {
+     margin: 20px;
+     font-family:Lato,sans-serif;
+     text-transform: uppercase;
+    font-size: 27px;
+ }
+
+
+
+ /* GALLERY */
+
+ #photos {
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0px;
+    margin-bottom: 10px;
+}
+
+#photos >img {
+    width: 100%;
+}
+
+
+#gallery-title-outer {
+    float: left;
+    margin-bottom: 70px;
+    margin-top: 7%;  
+   width: 100%;
+}
+
+
+#gallery-title-outer > h2 {
+    float: left;
+    font-family:Lato,sans-serif;
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 1px;
+    width: 100%;
+    color: #252525;
+}
+
+
+#gallery-title-outer > p  {
+    float: left;
+    width: 100%;
+    text-align: center;
+    font-style: italic;
+    margin-top: 30px;
+}
+
+
+/* CONTACT US PAGE */
+
+#contact-img-outer {
+    height: 300px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    top: 30px;
+}
+
+
+
+
+.contact-img-1, .contact-img-2, .contact-img-3, .contact-img-4 {
+width: 100%;
+border: 5px solid white;
+box-sizing: border-box;
+}
+
+
+.contact-img-1 {
+float: left;
+background: url('../images/contact-img-1.jpg');
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+width: 20%;
+height: 300px;
+}
+
+.contact-img-2 {
+float: left;
+background: url('../images/contact-img-2.jpg');
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+width: 20%;
+height: 300px;
+}
+
+.contact-img-3 {float: left;
+background: url('../images/contact-img-3.jpg');
+background-repeat: no-repeat;
+background-position: right;
+background-size: cover;
+width: 20%;
+height: 300px;
+}
+
+.contact-img-4 {
+float: left;
+background: url('../images/contact-img-4.jpg');
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+width: 20%;
+height: 300px;
+}
+
+.contact-img-5 {
+float: left;
+background: url('../images/contact-img-5.jpg');
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+width: 20%;
+height: 300px;
+}
+
+
+
+#contact-outer {
+    width: 100%;
+    float: left;
+    margin: 70px 0px 150px 0px;
+}
+
+#contact-outer > h2 {
+    float: left;
+    font-family:Lato,sans-serif;
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 1px;
+    width: 100%;
+    margin-bottom: 8px;
+    color: #252525;
+}
+
+
+
+#iframe-description-wraper{
+    width: 100%;
+    float: left;
+    margin-bottom: 5%;
+}
+
+#iframe-contact-page, #contact-description {
+    width: 50%;
+    float: left;
+}
+
+#iframe-contact-page {
+    height: 300px;
+    width: 40%;
+    margin-left: 5%;
+    border: 2px solid #959191;
+}
+
+
+
+#contact-description {
+    float:left;
+    width: 25%;
+    margin-left: 7%;
+}
+
+#address-contact-page {
+    margin: 8% 3%;
+}
+
+.fa-map-marker-alt {
+    font-size: 200%;
+    padding: 2%;
+}
+
+#address-directions {
+    width: 100%;
+}
+
+.address-details {
+    margin-left: 10%;
+}
+
+
+
+/* FORM */
+
+#form h3 {
+    width: 100%;
+    text-align: center;
+    margin-top: 10%;
+    font-family:Lato,sans-serif;
+    font-size: 30px;
+}
+
+#form p {
+    text-align: center;
+    margin-bottom: 5%;
+    font-style: italic;
+    font-size: 20px;
+}
+
+#form {
+    float: left;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+
+
+.form-control {
+    width: 30%;
+    display: block;
+    padding: 10px;
+    border: 1px solid #616263;
+    border-radius: 7px;
+    margin: 0 auto;
+    line-height: 1.5em;
+    margin-top: 10px;
+    font-size: 1rem;
+    }
+
+
+ input[type=submit] {
+    width: 20%;
+    background-color:  rgba(79, 79, 82);
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    cursor: pointer; 
+    }
+
+input:focus {
+    outline: none !important;
+    border-color: #537ca8;
+    box-shadow: 3px 0 15px #719ECE;
+}
+
+textarea:focus{
+    outline: none !important;
+    border-color: #537ca8;
+    box-shadow: 3px 0 15px #719ECE;
+}
+
+
+
+
+                  /******************************* MEDIA QUERIES ********************/
+
+@media screen and (max-width: 1200px) {
+
+/* HOME PAGE */
+
+
+#hr {
+    left: 0;
+    margin-right: 0;
+}
+
+#nav {
+    font-size: 105%;
+    line-height: 25px;
+    width: 100%;
+    border-bottom: 1px solid #3a3a3a;
+    padding-bottom: 15px;
+    }
+
+#nav ul {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 30px;
+    }
+
+#nav li {
+    margin-right: 17px;
+    float: left;
+}
+    
+    
+#reviews {
+    margin-left: 0;
+    margin-bottom: 0;
+    margin-left: 3%;
+    }
+
+#reviews div {
+     width: 90%;
+     margin-bottom: 60px;
+ }
+
+
+.address, .working-hours {
+    width: 50%;
+    height: 210px;
+    padding: 10px 0px 0px 0px;
+    margin: 1%;
+    }
+
+.working-hours ul {
+    padding:20px 3% 20px 3%;
+}
+
+
+#iframe-home-page {
+    width: 45%;
+    height: 400px;
+    margin: 0;
+    margin-top: -225px;
+    margin-right: 1%;
+    }
+
+#footer {
+    height: 100%;
+}
+
+#footer i { 
+    font-size: 140%;
+}
+
+#footer div {
+    font-size: 16px;
+    float: left;
+    text-align: left;
+    padding-top: 0;
+    height: 20%;
+}
+
+.envelope-icon {
+    width: 100%;
+}
+
+.phone-icon{
+    width: 80%;
+}
+
+.social-media {
+    float: right;
+    width: 20%;
+}
+
+/* SERVICES & PRICES */
+
+#services-prices { margin: 0% 0%;}
+
+/* MEET OUR TEAM */
+
+#our-team-img {
+    height: 300px;
+}
+
+#our-team-img-outer {
+    height: 300px;
+}
+
+#portrait-one, #portrait-two, #portrait-three, #portrait-four {
+    width: 300px;
+    height: 300px;
+}
+
+
+.text {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.portrait {
+    margin-left: 0;
+}
+
+
+/* CONTACT US  */
+
+#iframe-contact-page {
+    width: 90%;
+}
+
+#contact-description {
+    width: 50%;
+    margin-left: 10%;
+    margin-top: 8%;
+}
+
+.form-control {
+    width: 40%;
+}
+
+input[type=submit] {
+    width: 30%;
+}
+
+/* GALLERY*/
+
+#photos {
+    column-count: 2;
+}
+
+}
+ 
+
+/* MEDIA QUERIES FOR MAX-WIDTH 950PX */
+
+@media screen and (max-width: 950px) {
+
+body {
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+#about-us div {
+    width: 90%;
+}
+
+.padding-top-contact {
+    margin-top: 5px;
+}
+
+#contact-img-outer {
+    display: none;
+}
+
+#contact-outer h2 {
+    font-size: 23px;
+}
+
+#contact-outer {
+    margin:5% 0px 10% 0px;}
+
+#form h3 {
+    font-size: 23px;
+}
+
+#form p {
+    font-size: 17px;
+}
+
+.form-control { width: 50%;
+}
+
+input[type=submit] {
+    width: 50%;
+}
+
+}
+
+/* MEDIA QUERIES FOR MAX-WIDTH 600PX */
+
+@media screen and (max-width: 600px) 
+{
+
+ body {
+    margin-left: 2%;
+    margin-right: 2%;
+ }
+
+}
+
+
+/* MEDIA QUERIES FOR MAX-WIDTH 550PX */
+
+@media screen and (max-width: 550px){
+
+
+/*  HOME PAGE */
+
+#nav {
+    float: right;
+    font-size: 100%;
+    margin: 6% 3% 0% 3%;
+    margin-top: 6%;
+    border-bottom: none;
+    clear: none;
+    width: 10%;
+    flex-basis: 100%;
+    align-items: center;
+    }
+
+.nav-menu {
+    position: fixed;
+    left: -100%;
+    top: 4rem;
+    flex-direction: column;
+    background-color: #fff;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+    border: none;
+    }
+
+.nav-menu.active {
+    left: 0;
+    }
+
+#nav a {
+    font-size: 20px;
+    color: #2a2a2a;
+    font-family: Lato, sans-serif;
+    font-weight: 600;
+    }
+
+.hamburger {
+    display: block;
+    cursor: pointer;
+    }
+
+#nav li {
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    }
+
+.nav-link {
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.nav-logo {
+    font-size: 23px;
+    letter-spacing: 1px;
+}
+
+#header p {
+    font-size: 13px;
+    margin-left: 30px;
+}
+
+#header h1 {
+    margin-left: 10px;
+}
+    
+#nav ul {
+     margin-left: 0;
+ }
+
+
+ #about-us div{
+     width: unset;
+     overflow: hidden;
+     margin-right: 2%;
+     margin-left: 2%;
+ }
+
+#about-us h2 {
+    font-size: 20px;
+}
+
+.about {
+    font-size: 15px;
+    padding: 0px 10px 20px 10px;
+}
+
+.hero-img {
+    display: none;
+}
+
+#img-hidden {
+    background:url('../images/spa-smile4.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+    margin-top: 2%;
+}
+
+#reviews div {
+    width:90%;
+    margin-bottom: 30px;
+}
+
+#contact {
+    background: none;
+}
+
+#contact h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    margin-top: -10px;
+}
+
+.working-hours h3 {
+    font-size: 19px;
+}
+
+.address, .working-hours {
+    width: 100%;
+    background-color: rgb(157 157 45 / 43%);
+    height: 220px;
+}
+
+.address p {
+    padding: 0 20px;
+}
+
+.working-hours ul {
+    padding: 10px 5% 10px 0%;
+}
+
+
+
+#iframe-home-page {
+    width: 99%;
+    height: 200px;
+    margin-right: 0;
+    margin-bottom: 1px;
+    margin-top: 0;
+    border: 2px solid #959191;
+}
+
+#footer div {
+    font-size: 15px;
+}
+
+/* SERVICES & PRICES*/
+
+#body-image {
+    margin-top: 2%;
+}
+
+.treatment { margin-left: 0;
+            width: 60%;     
+            font-size: 16px; 
+         }
+
+#services-prices h3 {
+    padding-bottom: 1%;
+    padding-top: 1%;
+    font-size: 23px;
+    background-color: rgb(248, 234, 232);
+    border-radius: 10px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+#facial, #body, #waxing, #massage, #pedicure, #manicure {
+    padding: 10px 0px;
+}
+
+.price {
+    font-size: 16px;
+} 
+
+.responsive-treatment {
+    width: 50%;
+}
+
+/* MEET OUR TEAM */
+
+#our-team-title { 
+    margin: 0;
+}
+
+#our-team-title h2 {
+    font-size: 30px;
+    margin-top: 10%;
+}
+
+.text h3 {
+    margin: 20px 0 20px 10px
+
+}
+
+.gray-line {
+    width: 80%;
+}
+
+#portrait-one, #portrait-two, #portrait-three, #portrait-four{
+    width: 200px;
+    height: 300px;
+    margin-left: 0;
+}
+
+.text {
+    margin-left: 0%;
+}
+
+/* CONTACT US */
+
+
+#contact-description {
+    width: fit-content; 
+   width: 80%;
+}
+
+
+.form-control {
+    width: 80%;
+}
+
+input[type=submit] {
+    width: 60%;
+}
+
+#form p {
+    width: 95%;
+}
+
+}
+
+
+/* MEDIA QUERIES FOR MAX-WIDTH 300PX */
+
+@media screen and (max-width: 300px){
+
+#header h1 {
+    margin-left: 2px;
+}
+
+#nav {margin: 6% 2% 0% 0%;}
+
+#img-hidden, #body-image, #our-team-img {
+    margin-top: 5%;
+}
+
+ 
+}
+
