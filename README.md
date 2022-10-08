@@ -1,4 +1,4 @@
-# Vanna's Beuty Salon
+# Vanna's Beauty Salon
 
 Vannas's Beauty Salon is a beauty salon that provides quality and professional services. The focus of this project is to bring their services closer to potential customers.
  Clients can enjoy the family atmosphere and professionalism while relaxing in the time they have decided to give themselves. 
